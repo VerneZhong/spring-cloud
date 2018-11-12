@@ -1,6 +1,6 @@
 package com.zxb.spring.cloud.controller;
 
-import com.zxb.spring.cloud.service.AsyncBusiness;
+import com.zxb.spring.cloud.house.AsyncBusiness;
 import com.zxb.spring.cloud.common.MyConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

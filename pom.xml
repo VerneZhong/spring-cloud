@@ -8,6 +8,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>spring-cloud-Eureka</module>
+        <module>spring-cloud-house-server</module>
+        <module>spring-cloud-substitution-service</module>
     </modules>
     <packaging>pom</packaging>
 

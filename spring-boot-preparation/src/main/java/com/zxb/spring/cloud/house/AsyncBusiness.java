@@ -1,4 +1,4 @@
-package com.zxb.spring.cloud.service;
+package com.zxb.spring.cloud.house;
 
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Repository;

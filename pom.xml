@@ -10,6 +10,7 @@
         <module>spring-cloud-Eureka</module>
         <module>spring-cloud-house-server</module>
         <module>spring-cloud-substitution-service</module>
+        <module>spring-cloud-springboot</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -24,12 +24,16 @@ public class SubstitutionController {
      */
     @GetMapping("/callHello")
     public String callHello() {
-        return restTemplate.getForObject("http://localhost:8081/house/hello", String.class);
+        return restTemplate.getForObject("http://localhost:8071/house/hello", String.class);
     }
 
+    /**
+     * 通过Eureka来消费接口
+     * @return
+     */
     @GetMapping("/callHello2")
     public String callHello2() {
-        return restTemplate.getForObject("http://spring-cloud-house-server/house/hello", String.class);
+        return restTemplate.getForObject("http://zxb:123456@house-server/house/hello", String.class);
     }
 
 }
